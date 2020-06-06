@@ -1,0 +1,28 @@
+{
+  "name": "babel-gulp-boilerplate",
+  "version": "1.0.0",
+  "description": "Gulp 4, babel 7 project",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "start-dev": "nodemon ./src/app.js"
+  },
+  "keywords": [
+    "oracledb",
+    "nodemon"
+  ],
+  "author": "Vashitva Srivastava",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  },
+  "dependencies": {
+    "config": "^3.2.4",
+    "del": "^5.1.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.0.0",
+    "loadash": "^1.0.0",
+    "oracledb": "^4.2.0",
+    "path": "^0.12.7",
+    "simple-oracledb": "^2.0.0"
+  }
+}

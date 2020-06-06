@@ -1,0 +1,25 @@
+{
+    "app" : {
+        "appId" : "AppId",
+        "name"  : "AppName",
+        "key"  : "AppKey",
+        "description" :  "App Description",
+        "baseUrl" : "/api/v1"
+    },
+    "server" : {
+        "port" : "8080"
+    }, 
+    "dbPoolConfig" : {
+       "poolAlias": "O3",
+       "user": "o3_user",
+       "password":"Amazers",
+       "connectionString": "(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=MYHOST)(PORT=MY_PORT)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=MYSID)))",
+       "poolMin": 10,
+       "poolMax":10,
+       "poolIncrement" : 0,
+       "poolTimeout": 60000,
+       "queueRequests":true,
+       "queueTimeout":18000
+
+    }
+}
